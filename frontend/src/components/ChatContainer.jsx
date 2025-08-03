@@ -3,8 +3,8 @@ import { useChatStore } from "../store/useChatStore";
 import { useAuthStore } from "../store/useAuthStore";
 import ChatHeader from "./ChatHeader";
 import MessageInput from "./MessageInput";
-import MessageSkeleton from "e:/fullstack-chat-app/frontend/src/components/skeletons/MessageSkeleton";
-import { formatMessageTime } from "e:/fullstack-chat-app/frontend/src/lib/utils";
+import MessageSkeleton from "../components/skeletons/MessageSkeleton";
+import { formatMessageTime } from "../lib/utils";
 
 const ChatContainer = () => {
   const {
